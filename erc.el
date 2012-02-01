@@ -5634,6 +5634,8 @@ user input."
   (if erc-session-password
       (erc-server-send (format "PASS %s" erc-session-password))
     (message "Logging in without password"))
+  (when (and (featurep 'erc-sasl) (erc-sasl-use-sasl-p))
+    (erc-server-send "CAP REQ :sasl"))
   (erc-server-send (format "NICK %s" (erc-current-nick)))
   (erc-server-send
    (format "USER %s %s %s :%s"
