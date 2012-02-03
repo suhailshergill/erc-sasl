@@ -1,0 +1,6 @@
+* ERC with support for SASL
+This is vanilla ERC with a relatively minor addition and slight
+modification. See the file [[https://github.com/joseph-gay/erc-sasl/blob/sasl/erc-sasl.el][erc-sasl]] for instructions on how to enable
+SASL authentication for a particular server or servers.
+
+The motivation behind this is that SASL authentication is necessary on freenode for some networks including AT&T/Cingular and through TOR.
