@@ -1,11 +1,11 @@
 ;; erc-sasl.el -- handle SASL PLAIN authentication
 
-;; Copyright (C) 2012 Free Software Foundation, Inc.
+;; Copyright (C) 2012 Joseph Gay
 
-;; Author: Joseph Gay <joseph.gay@psy.ai>
+;; Author: Joseph Gay <ysph@psy.ai>
 ;; Keywords: comm
 
-;; This file is part of GNU Emacs.
+;; This file is NOT part of GNU Emacs.
 
 ;; GNU Emacs is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
